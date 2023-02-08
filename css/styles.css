@@ -724,7 +724,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-background);
   text-align: center;
-  margin-bottom: 34px;
+  margin-bottom: 14px;
 }
 
 .modal-form {
@@ -737,4 +737,26 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 26px;
+  background: #FCFCFC;
+}
+
+.modal-imput-text span {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8E8F99;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.modal-inpt-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 }
