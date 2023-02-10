@@ -400,7 +400,6 @@ img {
 }
 .flex-footer {
   display: flex;
-  gap: 120px;
 }
 
 .soc-text {
@@ -411,12 +410,18 @@ img {
   color: #FFFFFF;
 }
 
+.gap-social {
+  margin-left: 120px;
+}
 
+.gap-subscribe {
+  margin-left: 80px;
+}
 
 .soc-footer-list {
   display: flex;
   gap: 16px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 .socf-item {
@@ -799,8 +804,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .modal-form {
-
 }
+
 
 .modal-input {
   width: 100%;
@@ -821,14 +826,18 @@ color: rgba(255, 255, 255, 0.6);
   fill: var(--hover-focus-color);
 }
 
+.modal-imput-text {
+  
+}
+
 .modal-imput-text span {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #8E8F99;
-  margin-bottom: 4px;
   margin-top: 8px;
+  margin-bottom: 4px;
   display: block;
 }
 
@@ -904,6 +913,10 @@ color: rgba(255, 255, 255, 0.6);
   background-color: var(--btn-color-hov-foc);
   border: none;
   fill: var(--4light-color);
+}
+
+.policy-color {
+  color: var(--hover-focus-color);
 }
 
 .modal-input-btn {
